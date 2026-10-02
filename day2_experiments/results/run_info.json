@@ -1,0 +1,19 @@
+{
+  "status": "exploratory_raw_records_not_physical_cell_validated",
+  "seed": 42,
+  "python": "3.11.15",
+  "sklearn": "1.9.1",
+  "n_records": 64,
+  "features": [
+    "qd_mean_2_5",
+    "qd_delta_5_2",
+    "ir_mean_2_5",
+    "tavg_mean_2_5",
+    "tmax_mean_2_5",
+    "chargetime_mean_2_5"
+  ],
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "selection_metric": "F2 for short class",
+  "threshold": "estimator default; no tuning"
+}

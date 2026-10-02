@@ -1,0 +1,16 @@
+.ds_mini/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Original notebooks and historical temporary work are kept locally.
+archive/
+reports/
+
+# Generated figures can be recreated; keep CSV/JSON results reviewable.
+day1_eda/results/*.png
+day2_experiments/results/*.png
+./reports/
+./battery
+.ruff_cache
